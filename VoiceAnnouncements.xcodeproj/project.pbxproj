@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839B5969164A3B5393422602 /* libPods-VoiceAnnouncementsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A12729E4E9B03128EBAC25C /* libPods-VoiceAnnouncementsTests.a */; };
+		C504C11E21EC188900590F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C504C11D21EC188900590F1F /* AppDelegate.m */; };
+		C504C12121EC188900590F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C504C12021EC188900590F1F /* ViewController.m */; };
+		C504C12421EC188900590F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504C12221EC188900590F1F /* Main.storyboard */; };
+		C504C12721EC188900590F1F /* VoiceAnnouncements.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C504C12521EC188900590F1F /* VoiceAnnouncements.xcdatamodeld */; };
+		C504C12921EC188A00590F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C504C12821EC188A00590F1F /* Assets.xcassets */; };
+		C504C12C21EC188A00590F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504C12A21EC188A00590F1F /* LaunchScreen.storyboard */; };
+		C504C12F21EC188A00590F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C504C12E21EC188A00590F1F /* main.m */; };
+		C504C13921EC188B00590F1F /* VoiceAnnouncementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C504C13821EC188A00590F1F /* VoiceAnnouncementsTests.m */; };
+		C504C14421EC188B00590F1F /* VoiceAnnouncementsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C504C14321EC188B00590F1F /* VoiceAnnouncementsUITests.m */; };
+		C504C15A21EC295200590F1F /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C504C15921EC295200590F1F /* NotificationService.m */; };
+		C504C15E21EC295200590F1F /* Voice.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C504C15621EC295200590F1F /* Voice.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE88DF0E76AA04D4E2D0ABBD /* libPods-VoiceAnnouncements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25644AC5778BD63B90BD9B15 /* libPods-VoiceAnnouncements.a */; };
+		FFA61C80EAFE379FBC56822C /* libPods-VoiceAnnouncementsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F545EAC2659A6642BFC8C9D /* libPods-VoiceAnnouncementsUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C504C13521EC188A00590F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C504C11121EC188900590F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C504C11821EC188900590F1F;
+			remoteInfo = VoiceAnnouncements;
+		};
+		C504C14021EC188B00590F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C504C11121EC188900590F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C504C11821EC188900590F1F;
+			remoteInfo = VoiceAnnouncements;
+		};
+		C504C15C21EC295200590F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C504C11121EC188900590F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C504C15521EC295200590F1F;
+			remoteInfo = Voice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C504C16221EC295200590F1F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C504C15E21EC295200590F1F /* Voice.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25644AC5778BD63B90BD9B15 /* libPods-VoiceAnnouncements.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceAnnouncements.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F545EAC2659A6642BFC8C9D /* libPods-VoiceAnnouncementsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceAnnouncementsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		455B4FC7CCB28B628C59BF28 /* Pods-VoiceAnnouncementsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAnnouncementsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceAnnouncementsUITests/Pods-VoiceAnnouncementsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64E9BE1456C7FA961905A960 /* Pods-VoiceAnnouncementsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAnnouncementsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceAnnouncementsTests/Pods-VoiceAnnouncementsTests.release.xcconfig"; sourceTree = "<group>"; };
+		7583FDB86843D3F26D85F752 /* Pods-VoiceAnnouncements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAnnouncements.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceAnnouncements/Pods-VoiceAnnouncements.debug.xcconfig"; sourceTree = "<group>"; };
+		880AD54C6A8A139CC07FE66A /* Pods-VoiceAnnouncementsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAnnouncementsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceAnnouncementsTests/Pods-VoiceAnnouncementsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A12729E4E9B03128EBAC25C /* libPods-VoiceAnnouncementsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceAnnouncementsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDAFD01D4DFC852297B1673 /* Pods-VoiceAnnouncements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAnnouncements.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceAnnouncements/Pods-VoiceAnnouncements.release.xcconfig"; sourceTree = "<group>"; };
+		B46A952DF1BB8C98AC6B02C6 /* Pods-VoiceAnnouncementsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceAnnouncementsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceAnnouncementsUITests/Pods-VoiceAnnouncementsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C504C11921EC188900590F1F /* VoiceAnnouncements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceAnnouncements.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C504C11C21EC188900590F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C504C11D21EC188900590F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C504C11F21EC188900590F1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C504C12021EC188900590F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C504C12321EC188900590F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C504C12621EC188900590F1F /* VoiceAnnouncements.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoiceAnnouncements.xcdatamodel; sourceTree = "<group>"; };
+		C504C12821EC188A00590F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C504C12B21EC188A00590F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C504C12D21EC188A00590F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C504C12E21EC188A00590F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C504C13421EC188A00590F1F /* VoiceAnnouncementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceAnnouncementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C504C13821EC188A00590F1F /* VoiceAnnouncementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceAnnouncementsTests.m; sourceTree = "<group>"; };
+		C504C13A21EC188B00590F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C504C13F21EC188B00590F1F /* VoiceAnnouncementsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceAnnouncementsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C504C14321EC188B00590F1F /* VoiceAnnouncementsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceAnnouncementsUITests.m; sourceTree = "<group>"; };
+		C504C14521EC188B00590F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C504C15121EC1B0D00590F1F /* VoiceAnnouncements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VoiceAnnouncements.entitlements; sourceTree = "<group>"; };
+		C504C15621EC295200590F1F /* Voice.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Voice.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C504C15821EC295200590F1F /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		C504C15921EC295200590F1F /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		C504C15B21EC295200590F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C504C16321EC297D00590F1F /* Voice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Voice.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C504C11621EC188900590F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE88DF0E76AA04D4E2D0ABBD /* libPods-VoiceAnnouncements.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C13121EC188A00590F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839B5969164A3B5393422602 /* libPods-VoiceAnnouncementsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C13C21EC188B00590F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA61C80EAFE379FBC56822C /* libPods-VoiceAnnouncementsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C15321EC295200590F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9578BBE414D3D45E00B7B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25644AC5778BD63B90BD9B15 /* libPods-VoiceAnnouncements.a */,
+				8A12729E4E9B03128EBAC25C /* libPods-VoiceAnnouncementsTests.a */,
+				3F545EAC2659A6642BFC8C9D /* libPods-VoiceAnnouncementsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B170E98B9BDAFF023EB16655 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7583FDB86843D3F26D85F752 /* Pods-VoiceAnnouncements.debug.xcconfig */,
+				9BDAFD01D4DFC852297B1673 /* Pods-VoiceAnnouncements.release.xcconfig */,
+				880AD54C6A8A139CC07FE66A /* Pods-VoiceAnnouncementsTests.debug.xcconfig */,
+				64E9BE1456C7FA961905A960 /* Pods-VoiceAnnouncementsTests.release.xcconfig */,
+				455B4FC7CCB28B628C59BF28 /* Pods-VoiceAnnouncementsUITests.debug.xcconfig */,
+				B46A952DF1BB8C98AC6B02C6 /* Pods-VoiceAnnouncementsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C504C11021EC188900590F1F = {
+			isa = PBXGroup;
+			children = (
+				C504C11B21EC188900590F1F /* VoiceAnnouncements */,
+				C504C13721EC188A00590F1F /* VoiceAnnouncementsTests */,
+				C504C14221EC188B00590F1F /* VoiceAnnouncementsUITests */,
+				C504C15721EC295200590F1F /* Voice */,
+				C504C11A21EC188900590F1F /* Products */,
+				B170E98B9BDAFF023EB16655 /* Pods */,
+				0B9578BBE414D3D45E00B7B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C504C11A21EC188900590F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C504C11921EC188900590F1F /* VoiceAnnouncements.app */,
+				C504C13421EC188A00590F1F /* VoiceAnnouncementsTests.xctest */,
+				C504C13F21EC188B00590F1F /* VoiceAnnouncementsUITests.xctest */,
+				C504C15621EC295200590F1F /* Voice.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C504C11B21EC188900590F1F /* VoiceAnnouncements */ = {
+			isa = PBXGroup;
+			children = (
+				C504C15121EC1B0D00590F1F /* VoiceAnnouncements.entitlements */,
+				C504C11C21EC188900590F1F /* AppDelegate.h */,
+				C504C11D21EC188900590F1F /* AppDelegate.m */,
+				C504C11F21EC188900590F1F /* ViewController.h */,
+				C504C12021EC188900590F1F /* ViewController.m */,
+				C504C12221EC188900590F1F /* Main.storyboard */,
+				C504C12821EC188A00590F1F /* Assets.xcassets */,
+				C504C12A21EC188A00590F1F /* LaunchScreen.storyboard */,
+				C504C12D21EC188A00590F1F /* Info.plist */,
+				C504C12E21EC188A00590F1F /* main.m */,
+				C504C12521EC188900590F1F /* VoiceAnnouncements.xcdatamodeld */,
+			);
+			path = VoiceAnnouncements;
+			sourceTree = "<group>";
+		};
+		C504C13721EC188A00590F1F /* VoiceAnnouncementsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C504C13821EC188A00590F1F /* VoiceAnnouncementsTests.m */,
+				C504C13A21EC188B00590F1F /* Info.plist */,
+			);
+			path = VoiceAnnouncementsTests;
+			sourceTree = "<group>";
+		};
+		C504C14221EC188B00590F1F /* VoiceAnnouncementsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C504C14321EC188B00590F1F /* VoiceAnnouncementsUITests.m */,
+				C504C14521EC188B00590F1F /* Info.plist */,
+			);
+			path = VoiceAnnouncementsUITests;
+			sourceTree = "<group>";
+		};
+		C504C15721EC295200590F1F /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				C504C16321EC297D00590F1F /* Voice.entitlements */,
+				C504C15821EC295200590F1F /* NotificationService.h */,
+				C504C15921EC295200590F1F /* NotificationService.m */,
+				C504C15B21EC295200590F1F /* Info.plist */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C504C11821EC188900590F1F /* VoiceAnnouncements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C504C14821EC188B00590F1F /* Build configuration list for PBXNativeTarget "VoiceAnnouncements" */;
+			buildPhases = (
+				6BBB1ABD8EA71656E5416798 /* [CP] Check Pods Manifest.lock */,
+				C504C11521EC188900590F1F /* Sources */,
+				C504C11621EC188900590F1F /* Frameworks */,
+				C504C11721EC188900590F1F /* Resources */,
+				C504C16221EC295200590F1F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C504C15D21EC295200590F1F /* PBXTargetDependency */,
+			);
+			name = VoiceAnnouncements;
+			productName = VoiceAnnouncements;
+			productReference = C504C11921EC188900590F1F /* VoiceAnnouncements.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C504C13321EC188A00590F1F /* VoiceAnnouncementsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C504C14B21EC188B00590F1F /* Build configuration list for PBXNativeTarget "VoiceAnnouncementsTests" */;
+			buildPhases = (
+				A3074C0BD8D51AB5796C592D /* [CP] Check Pods Manifest.lock */,
+				C504C13021EC188A00590F1F /* Sources */,
+				C504C13121EC188A00590F1F /* Frameworks */,
+				C504C13221EC188A00590F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C504C13621EC188A00590F1F /* PBXTargetDependency */,
+			);
+			name = VoiceAnnouncementsTests;
+			productName = VoiceAnnouncementsTests;
+			productReference = C504C13421EC188A00590F1F /* VoiceAnnouncementsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C504C13E21EC188B00590F1F /* VoiceAnnouncementsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C504C14E21EC188B00590F1F /* Build configuration list for PBXNativeTarget "VoiceAnnouncementsUITests" */;
+			buildPhases = (
+				1A225651BBE42944B1BE8910 /* [CP] Check Pods Manifest.lock */,
+				C504C13B21EC188B00590F1F /* Sources */,
+				C504C13C21EC188B00590F1F /* Frameworks */,
+				C504C13D21EC188B00590F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C504C14121EC188B00590F1F /* PBXTargetDependency */,
+			);
+			name = VoiceAnnouncementsUITests;
+			productName = VoiceAnnouncementsUITests;
+			productReference = C504C13F21EC188B00590F1F /* VoiceAnnouncementsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C504C15521EC295200590F1F /* Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C504C15F21EC295200590F1F /* Build configuration list for PBXNativeTarget "Voice" */;
+			buildPhases = (
+				C504C15221EC295200590F1F /* Sources */,
+				C504C15321EC295200590F1F /* Frameworks */,
+				C504C15421EC295200590F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voice;
+			productName = Voice;
+			productReference = C504C15621EC295200590F1F /* Voice.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C504C11121EC188900590F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HuaHan;
+				TargetAttributes = {
+					C504C11821EC188900590F1F = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C504C13321EC188A00590F1F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C504C11821EC188900590F1F;
+					};
+					C504C13E21EC188B00590F1F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C504C11821EC188900590F1F;
+					};
+					C504C15521EC295200590F1F = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C504C11421EC188900590F1F /* Build configuration list for PBXProject "VoiceAnnouncements" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C504C11021EC188900590F1F;
+			productRefGroup = C504C11A21EC188900590F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C504C11821EC188900590F1F /* VoiceAnnouncements */,
+				C504C13321EC188A00590F1F /* VoiceAnnouncementsTests */,
+				C504C13E21EC188B00590F1F /* VoiceAnnouncementsUITests */,
+				C504C15521EC295200590F1F /* Voice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C504C11721EC188900590F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C504C12C21EC188A00590F1F /* LaunchScreen.storyboard in Resources */,
+				C504C12921EC188A00590F1F /* Assets.xcassets in Resources */,
+				C504C12421EC188900590F1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C13221EC188A00590F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C13D21EC188B00590F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C15421EC295200590F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A225651BBE42944B1BE8910 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceAnnouncementsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BBB1ABD8EA71656E5416798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceAnnouncements-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3074C0BD8D51AB5796C592D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceAnnouncementsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C504C11521EC188900590F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C504C12121EC188900590F1F /* ViewController.m in Sources */,
+				C504C11E21EC188900590F1F /* AppDelegate.m in Sources */,
+				C504C12F21EC188A00590F1F /* main.m in Sources */,
+				C504C12721EC188900590F1F /* VoiceAnnouncements.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C13021EC188A00590F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C504C13921EC188B00590F1F /* VoiceAnnouncementsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C13B21EC188B00590F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C504C14421EC188B00590F1F /* VoiceAnnouncementsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C504C15221EC295200590F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C504C15A21EC295200590F1F /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C504C13621EC188A00590F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C504C11821EC188900590F1F /* VoiceAnnouncements */;
+			targetProxy = C504C13521EC188A00590F1F /* PBXContainerItemProxy */;
+		};
+		C504C14121EC188B00590F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C504C11821EC188900590F1F /* VoiceAnnouncements */;
+			targetProxy = C504C14021EC188B00590F1F /* PBXContainerItemProxy */;
+		};
+		C504C15D21EC295200590F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C504C15521EC295200590F1F /* Voice */;
+			targetProxy = C504C15C21EC295200590F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C504C12221EC188900590F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C504C12321EC188900590F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C504C12A21EC188A00590F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C504C12B21EC188A00590F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C504C14621EC188B00590F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C504C14721EC188B00590F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C504C14921EC188B00590F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7583FDB86843D3F26D85F752 /* Pods-VoiceAnnouncements.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VoiceAnnouncements/VoiceAnnouncements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VoiceAnnouncements/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.xinge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C504C14A21EC188B00590F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BDAFD01D4DFC852297B1673 /* Pods-VoiceAnnouncements.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VoiceAnnouncements/VoiceAnnouncements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VoiceAnnouncements/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.xinge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C504C14C21EC188B00590F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880AD54C6A8A139CC07FE66A /* Pods-VoiceAnnouncementsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VoiceAnnouncementsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.VoiceAnnouncementsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceAnnouncements.app/VoiceAnnouncements";
+			};
+			name = Debug;
+		};
+		C504C14D21EC188B00590F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E9BE1456C7FA961905A960 /* Pods-VoiceAnnouncementsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VoiceAnnouncementsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.VoiceAnnouncementsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceAnnouncements.app/VoiceAnnouncements";
+			};
+			name = Release;
+		};
+		C504C14F21EC188B00590F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455B4FC7CCB28B628C59BF28 /* Pods-VoiceAnnouncementsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VoiceAnnouncementsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.VoiceAnnouncementsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceAnnouncements;
+			};
+			name = Debug;
+		};
+		C504C15021EC188B00590F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46A952DF1BB8C98AC6B02C6 /* Pods-VoiceAnnouncementsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VoiceAnnouncementsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.VoiceAnnouncementsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiceAnnouncements;
+			};
+			name = Release;
+		};
+		C504C16021EC295200590F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Voice/Voice.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = Voice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.xinge.Voice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C504C16121EC295200590F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Voice/Voice.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = Voice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.xinge.Voice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C504C11421EC188900590F1F /* Build configuration list for PBXProject "VoiceAnnouncements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C504C14621EC188B00590F1F /* Debug */,
+				C504C14721EC188B00590F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C504C14821EC188B00590F1F /* Build configuration list for PBXNativeTarget "VoiceAnnouncements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C504C14921EC188B00590F1F /* Debug */,
+				C504C14A21EC188B00590F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C504C14B21EC188B00590F1F /* Build configuration list for PBXNativeTarget "VoiceAnnouncementsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C504C14C21EC188B00590F1F /* Debug */,
+				C504C14D21EC188B00590F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C504C14E21EC188B00590F1F /* Build configuration list for PBXNativeTarget "VoiceAnnouncementsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C504C14F21EC188B00590F1F /* Debug */,
+				C504C15021EC188B00590F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C504C15F21EC295200590F1F /* Build configuration list for PBXNativeTarget "Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C504C16021EC295200590F1F /* Debug */,
+				C504C16121EC295200590F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C504C12521EC188900590F1F /* VoiceAnnouncements.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C504C12621EC188900590F1F /* VoiceAnnouncements.xcdatamodel */,
+			);
+			currentVersion = C504C12621EC188900590F1F /* VoiceAnnouncements.xcdatamodel */;
+			path = VoiceAnnouncements.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C504C11121EC188900590F1F /* Project object */;
+}
