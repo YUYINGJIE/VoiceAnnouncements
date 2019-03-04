@@ -27,7 +27,7 @@
     // Override point for customization after application launch.
     
     [self registJpush:launchOptions];// 推送授权
-
+// cc
     return YES;
 }
 
